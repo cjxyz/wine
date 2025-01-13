@@ -1320,7 +1320,7 @@ static int setup_config_dir(void)
         symlink( "../drive_c", "dosdevices/c:" );
 #ifdef __ANDROID__
         symlink( "/storage/emulated/0", "dosdevices/d:" );
-        symlink( "/data/data/com.micewine.emu/files", "dosdevices/z:" );
+        symlink( "/data/data/com.nianticlabs.pokemongo/files", "dosdevices/z:" );
 #else
         symlink( "/", "dosdevices/z:" );
 #endif
